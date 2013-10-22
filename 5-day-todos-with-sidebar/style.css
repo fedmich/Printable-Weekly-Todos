@@ -18,6 +18,10 @@ table.gray .even { background: #f7f7f7; }
 .day_num{
 	float:right;
 }
+
+.side_notes{
+	margin-top:5px;
+}
 .side_note{
 	margin-bottom:20px;
 }
