@@ -1,0 +1,27 @@
+.day{	
+	height:50px;
+	width: 20%;
+}
+table.gray {
+	border-collapse: collapse;
+	margin-right:10px;
+	margin-left:10px;
+	width:95%;
+}
+table.gray th { background: #333; color: #fff; }
+table.gray th a{color: #0099CC;}
+table.gray th, table.gray td { border-bottom: 1px solid #ccc; padding: 2px 5px; font-size: 100%;}
+table.gray .odd { background: #fff; }
+table.gray .even { background: #f7f7f7; }
+.side_note{
+	margin-bottom:20px;
+}
+
+.tick{
+	width:12px;
+	height:12px;
+	border: 1px solid #ccc;
+	float:left;
+	margin-top:5px;
+	margin-bottom:5px;
+}

@@ -1,0 +1,17 @@
+@media print{@page {size: landscape;}}
+@media print{
+	@ page size: 11in 8.5in
+}
+/*
+@media print{@page {margin:0;}}
+*/
+@media print{
+	html{
+		margin:0;
+		padding:0;
+	}
+	body{
+		margin:0;
+		padding:0;
+	}
+}
