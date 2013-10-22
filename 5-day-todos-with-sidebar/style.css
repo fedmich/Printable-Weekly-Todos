@@ -1,12 +1,12 @@
 .day{	
-	height:50px;
+	height:60px;
 	width: 20%;
 }
 table.gray {
 	border-collapse: collapse;
 	margin-right:10px;
 	margin-left:10px;
-	width:95%;
+	width:97%;
 }
 table.gray th { background: #333; color: #fff; }
 table.gray th a{color: #0099CC;}
