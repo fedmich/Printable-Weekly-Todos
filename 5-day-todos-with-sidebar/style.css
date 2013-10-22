@@ -13,6 +13,11 @@ table.gray th a{color: #0099CC;}
 table.gray th, table.gray td { border-bottom: 1px solid #ccc; padding: 2px 5px; font-size: 100%;}
 table.gray .odd { background: #fff; }
 table.gray .even { background: #f7f7f7; }
+
+
+.day_num{
+	float:right;
+}
 .side_note{
 	margin-bottom:20px;
 }
