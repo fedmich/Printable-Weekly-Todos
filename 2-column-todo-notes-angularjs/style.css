@@ -1,0 +1,62 @@
+.day{	
+	height:60px;
+	width: 20%;
+}
+.day_small{
+	height:30px;
+}
+table.gray {
+	border-collapse: collapse;
+	margin-right:10px;
+	margin-left:10px;
+	width:97%;
+}
+table.gray th { background: #333; color: #fff; }
+table.gray th a{color: #0099CC;}
+table.gray th, table.gray td { border-bottom: 1px solid #ccc; padding: 2px 5px; font-size: 100%;}
+table.gray .odd { background: #fff; }
+table.gray .even { background: #f7f7f7; }
+
+
+.day_num{
+	float:right;
+}
+
+.side_notes{
+	margin-top:5px;
+}
+.side_note{
+	margin-bottom:20px;
+}
+
+.tick{
+	width:12px;
+	height:12px;
+	border: 1px solid #ccc;
+	float:left;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+
+table.box_2{
+	width:92%;
+	margin:auto;
+}
+table.box_2a{
+	margin-left:30px;
+}
+table.box_2b{
+	margin-right:30px;
+}
+
+h1{
+	margin:0;
+	padding:0;
+}
+
+input.proj_name{
+	text-align:center;
+	margin-bottom:10px;
+	background-color : #FFFFCC;
+}

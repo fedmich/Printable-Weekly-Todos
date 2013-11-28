@@ -1,0 +1,30 @@
+<div align="center">
+<h1>
+	{{proj1}}
+</h1>
+	
+	<input type="text" id="proj1" ng-model="proj1" value="Project 1" class="no_print proj_name" placeholder="Project Name" required />
+</div>
+
+<table border="1" cellspacing="0" cellpadding="0" width="100%" class="gray box_2" ng-controller="TodoCtrl">
+<thead>
+<tr>
+<th>
+	Todos / Notes
+</th>
+</thead>
+<tbody>
+	<tr ng-repeat="todo in todos">
+		<td align="center" class="day day_small">
+		<div class="tick"></div>
+		</td>
+	</tr>
+	<tr class="no_print" >
+	<td>
+		<form ng-submit="addTodo()">
+			<input class="btn-primary" type="submit" value="Add Row">
+		</form>
+	</td>
+	</tr>
+</tbody>
+</table>
